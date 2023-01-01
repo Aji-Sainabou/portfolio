@@ -47,6 +47,20 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+.about-me {
+  padding: 160px 20px;
+}
+.about-me h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -55,7 +69,7 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.btn-brandind-outline {
+.btn-branding-outline {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   color: var(--branding-color);
@@ -67,11 +81,6 @@ p {
   padding: 120px 60px;
 }
 @media (max-width: 900px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-
   h1 {
     font-size: 65px;
     line-height: 2;
@@ -84,5 +93,13 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-me {
+    text-align: center;
+    padding: 0;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
