@@ -49,6 +49,7 @@ p {
 }
 .content-container {
   padding: 60px 20px;
+  background-color: rgb(223, 235, 235);
 }
 .content h1 {
   font-size: 64px;
@@ -65,6 +66,9 @@ p {
 }
 .content p {
   font-size: 14px;
+}
+.content img {
+  height: 500px;
 }
 .content {
   margin: 30px;
